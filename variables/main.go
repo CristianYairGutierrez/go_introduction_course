@@ -10,7 +10,7 @@ func main() {
 	fmt.Println("My variable is: ", myIntVar)
 
 	var myUintVar uint
-	myIntVar = 12
+	myUintVar = 12
 	fmt.Println("My variable is: ", myUintVar)
 
 	var myStringVar string
@@ -20,4 +20,22 @@ func main() {
 	var myBoolVar bool
 	myBoolVar = true
 	fmt.Println("My variable is: ", myBoolVar)
+
+	fmt.Println("My variable address is: ", &myStringVar)
+
+	myIntVar2 := 23
+
+	fmt.Println("My int variable with :=", myIntVar2)
+
+	myString2 := "My string variable with :="
+	fmt.Println(myString2)
+
+	const myFirstConst = "a12"
+	fmt.Println("My const is: ", myFirstConst)
+
+	const myIntConst int = 12
+	fmt.Println("My const is: ", myIntConst)
+
+	const myStringConst string = "aaa"
+	fmt.Println("My const is: ", myStringConst)
 }
