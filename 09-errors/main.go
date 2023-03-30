@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/CristianYairGutierrez/go_introduction_course/09-errors/operator"
+	"github.com/iamfister/go_introduction_course/09-errors/operator"
 )
 
 func main() {

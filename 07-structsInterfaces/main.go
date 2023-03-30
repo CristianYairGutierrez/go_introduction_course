@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/CristianYairGutierrez/go_introduction_course/07-structsInterfaces/structsInterface/structs"
-	"github.com/CristianYairGutierrez/go_introduction_course/07-structsInterfaces/structsInterface/vehicles"
+	"github.com/iamfister/go_introduction_course/07-structsInterfaces/structsInterface/structs"
+	"github.com/iamfister/go_introduction_course/07-structsInterfaces/structsInterface/vehicles"
 )
 
 func main() {
